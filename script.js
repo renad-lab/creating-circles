@@ -10,8 +10,8 @@ container.appendChild(button);
 const containerWidth = container.offsetWidth;
 const containerHeight = container.offsetHeight;
 let maxRadius = Math.min(containerWidth, containerHeight) / 2;
-// if (div.offsetWidth < 150 || div.offsetHeight < 100) {
-//     resetContainer();
+// if (div.offsetWidth || div.offsetHeight) {
+//   resetContainer();
 // }
 
 button.addEventListener("click", createCircle);
