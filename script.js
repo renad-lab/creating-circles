@@ -17,7 +17,7 @@ function createCircle() {
   const circle = document.createElement("div");
   circle.classList.add("circle");
 
-  const radius = maxRadius - 80;
+  const radius = 80;
   const diameter = radius;
 
   circle.style.width = `${diameter}px`;
