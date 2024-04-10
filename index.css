@@ -9,7 +9,7 @@ body {
 
 #container {
   width: 500px;
-  height: 500px;
+  height: 400px;
   position: relative;
   background-color: whitesmoke;
   border: 2px solid gray;
@@ -36,7 +36,7 @@ body {
   cursor: pointer;
   position: absolute;
   left: 50%;
-  top: 90%;
+  top: 100%;
   transform: translate(-50%, -50%);
   z-index: 1;
   font-size: 16px;
