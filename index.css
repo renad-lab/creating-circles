@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button {
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+  background-color: red;
+  color: whitesmoke;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 16px;
+  padding: 8px 8px;
+}
