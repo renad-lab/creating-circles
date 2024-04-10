@@ -12,7 +12,7 @@ body {
   height: 400px;
   position: relative;
   background-color: whitesmoke;
-  border: 2px solid gray;
+  border: 5px solid black;
 }
 
 .circle {
@@ -20,7 +20,7 @@ body {
   border-radius: 50%;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 
 #button {
@@ -36,8 +36,8 @@ body {
   cursor: pointer;
   position: absolute;
   left: 50%;
-  top: 100%;
-  transform: translate(-50%, -50%);
+  top: 110%;
+  transform: translate(-50%, 0);
   z-index: 1;
   font-size: 16px;
   padding: 8px 8px;
