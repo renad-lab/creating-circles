@@ -8,10 +8,11 @@ body {
 }
 
 #container {
-  width: 100vw;
-  height: 100vh;
+  width: 800px;
+  height: 800px;
   position: relative;
   background-color: whitesmoke;
+  border: 2px solid gray;
 }
 
 .circle {
