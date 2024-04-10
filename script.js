@@ -6,13 +6,13 @@ const button = document.createElement("div");
 button.id = "button";
 button.textContent = "Create circle";
 container.appendChild(button);
+// if (div.offsetWidth > 500 || div.offsetHeight > 500) {
+//   resetContainer();
+// }
 
 const containerWidth = container.offsetWidth;
 const containerHeight = container.offsetHeight;
 let maxRadius = Math.min(containerWidth, containerHeight) / 2;
-// if (div.offsetWidth || div.offsetHeight) {
-//   resetContainer();
-// }
 
 button.addEventListener("click", createCircle);
 
